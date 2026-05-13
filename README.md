@@ -1,10 +1,10 @@
 # RNA editing during gametogenesis and embryogenesis
 
-This repository contains scripts and reproducible workflows for the analysis of A-to-I RNA editing during gametogenesis and embryogenesis in *Caenorhabditis elegans*. It collects all code used for the associated manuscript, along with documentation and environment files to allow reviewers and readers to reproduce the figures and results.
+This repository contains scripts and reproducible workflows for analyzing A-to-I RNA editing in bulk and single-cell RNA-seq data. It collects the code used in Eliad et al.,2026, along with documentation and environment files to allow reviewers and readers to reproduce the results.
 
 ## Overview
 
-RNA editing by ADAR enzymes alters adenosines to inosines in RNA molecules. Understanding how editing patterns change across developmental stages helps reveal post-transcriptional regulation. Here we analyzed single-cell and bulk RNA-seq data from N2 embryos and L4 gametes to identify and validate editing sites.
+RNA editing by ADAR enzymes alters adenosines to inosines in RNA molecules. Understanding how editing patterns change across developmental stages helps reveal post-transcriptional regulation. Here, we analyzed bulk and single-cell RNA-seq data from gametes, embryos, and L4 tsgaed worms to identify and validate editing sites.
 
 The analysis pipeline involves:
 
@@ -79,8 +79,7 @@ Large genomic resources (.bed/.gff files, raw FASTQ/BAM files) are intentionally
 Detailed instructions for each step and parameter choices are recorded in the documentation notebook (`docs/Final_Analysis.md`) and the manuscript.
 
 ## References
-
-The scripts and analyses are derived from the [Embryo_project_Berta](https://github.com/Lammlab/Pipes/tree/Embryo_project_Berta/Experiments/Embryogenesis) branch of the Lammlab/Pipes repository. See the notebook `Embryogensis_project_documentation.ipynb` for the full narrative. If you use this code, please cite the accompanying paper.
+Eliad et al., 2026 - If you use this code, please cite the accompanying paper.
 
 ---
 
